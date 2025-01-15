@@ -4,6 +4,9 @@
 
 This Android application allows users to search for images on Flickr using tags. Users can input search terms into a search bar, and the app will display a grid of images matching the tags. Tapping on an image opens a detail view where the image and its metadata (title, description, author, and publish date) are displayed. The app includes features such as unit tests, UI tests, image sharing, animation, and additional image details.
 
+This app follows the **MVVM (Model-View-ViewModel)** architecture pattern with **Clean Code Architecture** principles to ensure the app is modular, scalable, and maintainable. Here's how each part contributes to the app's structure:
+
+
 ## Features
 
 - **Search Functionality**: The app allows users to search Flickr's public feed by entering a search term in the search bar.
@@ -39,7 +42,8 @@ Dagger Hilt is a dependency injection library that reduces boilerplate code for 
 Kotlin Flows are used for handling asynchronous streams of data in a reactive way. They provide a simple and efficient way to handle long-running or data-streaming operations such as API calls. 
 
 - [Unit Testing](https://developer.android.com/training/testing/unit-tests)
-Unit testing is essential for ensuring the correctness and stability of business logic. In this project, unit tests are written for the ViewModel, Repository, and UseCase layers to verify that the individual components work correctly in isolation. 
+Unit testing is essential for ensuring the correctness and stability of business logic. In this project, unit tests are written for the ViewModel, Repository, and UseCase layers to verify that the individual components work correctly in isolation.
+
 - [UI Testing](https://developer.android.com/training/testing/ui-testing)
 UI testing is performed to ensure that the user interface behaves as expected under various conditions. UI tests are written to simulate user interactions such as entering text, tapping buttons, and navigating between screens. 
 
