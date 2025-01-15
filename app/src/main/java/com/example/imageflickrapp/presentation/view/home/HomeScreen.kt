@@ -66,8 +66,9 @@ fun HomeScreen(
 
         PhotoGrid(
             modifier = Modifier
+                .padding(top = dimensionResource(R.dimen.spacing_doubleExtraLarge))
                 .constrainAs(photoList) {
-                    top.linkTo(guideLineFromTop)
+                    top.linkTo(searchField.bottom)
                     bottom.linkTo(parent.bottom)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
