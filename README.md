@@ -35,6 +35,9 @@ The project follows the Clean Code Architecture pattern to ensure that the codeb
 - [Navigation Compose](https://developer.android.com/jetpack/compose/navigation)
 Navigation Compose provides an easy-to-use and declarative approach to navigating between composables in Jetpack Compose.
 
+- [Retrofit](https://square.github.io/retrofit/)
+Retrofit is used for network requests, converting JSON data into Kotlin objects and handling RESTful API communication. It simplifies the process of connecting to external APIs, like the Flickr API, in an easy-to-understand way.
+
 - [Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 Dagger Hilt is a dependency injection library that reduces boilerplate code for setting up and managing dependencies. 
 
