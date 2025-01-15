@@ -6,6 +6,7 @@
     <dimen name="spacing_medium">16dp</dimen>
     <dimen name="spacing_large">24dp</dimen>
     <dimen name="spacing_extraLarge">32dp</dimen>
+    <dimen name="spacing_doubleExtraLarge">52dp</dimen>
 
     <!-- Grid Dimensions -->
     <dimen name="grid_item_spacing">16dp</dimen>
