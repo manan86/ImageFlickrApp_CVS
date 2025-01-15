@@ -15,19 +15,6 @@ This Android application allows users to search for images on Flickr using tags.
 
 ## Tools and Technologies
 
-- Android Studio (lady bug)
-- Kotlin
-- Jetpack Compose
-- Clean Code Architecture
-- Navigation compose
-- Dagger Hilt
-- Kotlin Flows
-- Unit Testing
-- UI Testing
-
-
-## Tools and Technologies
-
 This project uses a variety of modern Android development tools and libraries to ensure high performance, maintainability, and scalability. Below are the tools and technologies used in this project, along with a brief explanation of why each one was chosen:
 
 - [Android Studio](https://developer.android.com/studio) (Ladybug)
