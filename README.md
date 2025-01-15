@@ -58,7 +58,7 @@ UI testing is performed to ensure that the user interface behaves as expected un
 | ![Search Screen](https://github.com/user-attachments/assets/acbaf7fa-aef7-4633-83bf-7e960e36d34e) | ![Image Grid](https://github.com/user-attachments/assets/d604d964-232d-409b-be4e-38fd822e6c04) | ![Image Detail View](https://github.com/user-attachments/assets/eb0a4576-c0b8-4fd7-a1ab-4bdc36408347) | ![Share Button](https://github.com/user-attachments/assets/73cac27e-3a84-4725-9cc7-0d1c532af428) |
 
 ## Demo Video
-https://github.com/user-attachments/assets/b4227549-f1b0-4c94-aa52-5a2eab43b332
+https://github.com/user-attachments/assets/9aace5f5-ea7f-46e5-a9c9-530e26feb506
 
 ## API Used
 
