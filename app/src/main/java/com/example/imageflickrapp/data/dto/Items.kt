@@ -2,6 +2,9 @@ package com.example.imageflickrapp.data.dto
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Data class representing a photo item with details such as author, description, media, and tags.
+ */
 data class Items(
     @SerializedName("author")
     val author: String,

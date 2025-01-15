@@ -8,6 +8,10 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+/**
+ * Dagger Hilt module for providing use case dependencies.
+ * Binds GetPublicPhotosUseCase as the implementation of IGetPublicPhotosUseCase.
+ */
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class PhotoUseCaseModule {

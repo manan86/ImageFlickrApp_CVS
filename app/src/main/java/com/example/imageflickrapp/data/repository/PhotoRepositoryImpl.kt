@@ -13,7 +13,10 @@ import kotlinx.coroutines.withContext
 import java.net.UnknownHostException
 import javax.inject.Inject
 
-
+/**
+ * Implements IPhotoRepository to fetch images from the Flickr API.
+ * Emits different states: Pending, Fetching, Error, and Success.
+ */
 class PhotoRepositoryImpl @Inject constructor(private val apiService: FlickrApiService) : IPhotoRepository {
     companion object {
         private const val TAG = "PhotoRepository"

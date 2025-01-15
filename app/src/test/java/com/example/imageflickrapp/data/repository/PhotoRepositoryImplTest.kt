@@ -23,6 +23,9 @@ import org.junit.Test
 import retrofit2.Response
 import java.net.UnknownHostException
 
+/**
+ * Unit tests for PhotoRepositoryImpl, verifying the correct handling of various API responses and states.
+ */
 @OptIn(ExperimentalCoroutinesApi::class)
 class PhotoRepositoryImplTest {
 

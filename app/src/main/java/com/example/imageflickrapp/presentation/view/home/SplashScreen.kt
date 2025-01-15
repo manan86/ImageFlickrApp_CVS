@@ -26,6 +26,10 @@ import androidx.navigation.NavController
 import com.example.imageflickrapp.R
 import kotlinx.coroutines.delay
 
+/**
+ * SplashScreen composable displays a logo animation and a message before navigating to the home screen.
+ * It animates the logo size and transitions to the home screen after a delay.
+ */
 @Composable
 fun SplashScreen(navController: NavController) {
 
@@ -47,7 +51,7 @@ fun SplashScreen(navController: NavController) {
             verticalArrangement = Arrangement.Center
         ) {
             Image(
-                painter = painterResource(id = R.drawable.baseline_star_outline_24), // Replace with your logo resource
+                painter = painterResource(id = R.drawable.baseline_star_outline_24),
                 contentDescription = "Flickr Logo",
                 modifier = Modifier
                     .size(animatedScale.value)
@@ -65,7 +69,7 @@ fun SplashScreen(navController: NavController) {
     }
 
     LaunchedEffect(Unit) {
-        delay(3000)
+        delay(2000)
         navController.navigate("home") {
             popUpTo("splash") { inclusive = true }
         }

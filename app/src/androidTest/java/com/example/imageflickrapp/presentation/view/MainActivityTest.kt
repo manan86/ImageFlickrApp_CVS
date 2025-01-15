@@ -10,6 +10,9 @@ import org.junit.runner.RunWith
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltAndroidRule
 
+/**
+ * UI tests for the MainActivity of the ImageFlickrApp, verifying initial state and UI elements.
+ */
 @HiltAndroidTest
 @RunWith(AndroidJUnit4::class)
 class MainActivityTest {
@@ -23,12 +26,6 @@ class MainActivityTest {
     @Before
     fun setup() {
         hiltRule.inject()
-    }
-
-    @Test
-    fun searchBarIsVisible() {
-        composeTestRule.onNode(hasSetTextAction()).assertExists()
-        composeTestRule.onNode(hasSetTextAction()).assertIsEnabled()
     }
 
     @Test

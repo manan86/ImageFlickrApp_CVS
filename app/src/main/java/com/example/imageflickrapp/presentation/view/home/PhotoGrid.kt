@@ -22,6 +22,10 @@ import com.example.imageflickrapp.domain.data.FetchImageState
 import com.example.imageflickrapp.domain.data.Photo
 import com.example.imageflickrapp.presentation.viewmodel.PhotoListViewModel
 
+/**
+ * PhotoGrid composable displays a grid of photos based on the fetch state.
+ * It handles various states like pending, fetching, successfully fetched, and error.
+ */
 @Composable
 fun PhotoGrid(
     modifier: Modifier = Modifier,
@@ -31,6 +35,7 @@ fun PhotoGrid(
     val photoResult = photoViewModel.imageFetchState.collectAsStateWithLifecycle()
 
     Box(
+
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {

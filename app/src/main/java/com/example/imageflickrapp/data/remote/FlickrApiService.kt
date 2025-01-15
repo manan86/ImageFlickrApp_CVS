@@ -6,6 +6,10 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
+/**
+ * Interface for fetching photos from the Flickr API using specified tags.
+ * Returns a Retrofit Response containing a PhotoResponse DTO.
+ */
 interface FlickrApiService {
 
     @GET(END_POINT)

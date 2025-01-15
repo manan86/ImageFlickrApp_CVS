@@ -14,6 +14,10 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 
+/**
+ * Unit tests for PhotoListViewModel, verifying the correct handling of search query, photo selection,
+ * and different states such as fetching and error handling.
+ */
 @OptIn(ExperimentalCoroutinesApi::class)
 class PhotoListViewModelTest {
 

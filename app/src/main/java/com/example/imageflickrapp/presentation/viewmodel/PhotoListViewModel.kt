@@ -19,6 +19,11 @@ import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+
+/**
+ * PhotoListViewModel manages the state for fetching public photos and search query,
+ * handling data flow, error handling, and updating the selected photo.
+ */
 @OptIn(FlowPreview::class, ExperimentalCoroutinesApi::class)
 @HiltViewModel
 class PhotoListViewModel @Inject constructor(

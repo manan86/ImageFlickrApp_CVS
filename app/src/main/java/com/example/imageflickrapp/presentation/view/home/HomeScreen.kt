@@ -17,7 +17,10 @@ import androidx.compose.ui.unit.sp
 import com.example.imageflickrapp.R
 import com.example.imageflickrapp.presentation.viewmodel.PhotoListViewModel
 
-
+/**
+ * HomeScreen composable representing the main screen with a title, search bar, and photo grid.
+ * Uses ConstraintLayout for positioning and sizing components.
+ */
 @Composable
 fun HomeScreen(
     navController: NavController,

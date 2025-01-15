@@ -43,6 +43,10 @@ import com.example.imageflickrapp.presentation.util.PhotoGridConstants
 import com.bumptech.glide.request.transition.Transition
 import com.example.imageflickrapp.domain.data.Photo
 
+/**
+ * PhotoCard composable displays a photo with a title and clickable action.
+ * It uses Glide to load the image and shows a loading indicator while fetching.
+ */
 @Composable
 fun PhotoCard(
     photo: Photo,

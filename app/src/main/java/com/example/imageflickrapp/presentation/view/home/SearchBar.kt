@@ -33,6 +33,10 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.sp
 import com.example.imageflickrapp.R
 
+/**
+ * SearchBar composable handles the user input for searching photos.
+ * It contains a text field with a search icon, a clear button, and updates the search query.
+ */
 @Composable
 fun SearchBar(
     photoViewModel: PhotoListViewModel,

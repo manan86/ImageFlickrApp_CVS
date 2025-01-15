@@ -10,6 +10,10 @@ import androidx.core.text.HtmlCompat
 import java.text.SimpleDateFormat
 import java.util.Locale
 
+/**
+ * Utility object for date formatting, HTML parsing, and image dimension extraction.
+ * Provides methods to format dates, convert HTML to AnnotatedString, and extract image dimensions from HTML descriptions.
+ */
 object DateFormatter {
     fun formatDate(dateString: String): String {
         return try {

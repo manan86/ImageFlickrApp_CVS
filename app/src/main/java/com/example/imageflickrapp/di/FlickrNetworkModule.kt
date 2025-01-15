@@ -12,7 +12,10 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-
+/**
+ * Provides networking dependencies for the application using Dagger Hilt.
+ * Includes HttpLoggingInterceptor, OkHttpClient, Retrofit, and FlickrApiService.
+ */
 @Module
 @InstallIn(SingletonComponent::class)
 object FlickrNetworkModule {
